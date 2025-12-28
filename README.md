@@ -25,7 +25,7 @@ This is a **portfolio project** demonstrating security engineering skills throug
 
 ## Demo
 
-<video src="https://github.com/KhanIkram/hybrid-cloud-siem/raw/main/docs/assets/demo.mp4" controls width="600"></video>
+https://github.com/user-attachments/assets/54b36b14-5448-409a-b050-c75f19f09cc0
 
 *AI-assisted threat hunting: natural language query → multi-source enrichment → combined verdict*
 
