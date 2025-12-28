@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions about implementation
+    url: https://github.com/KhanIkram/hybrid-cloud-siem/discussions
+    about: Ask questions about deploying or customizing this project
+  - name: Detection ideas
+    url: https://github.com/KhanIkram/hybrid-cloud-siem/discussions/categories/ideas
+    about: Suggest new detection queries or features

@@ -1,0 +1,63 @@
+# Environment and secrets
+.env
+*.env
+.env.*
+!.env.template
+!.env.example
+
+# Splunk
+*.log
+*.csv
+/splunk/var/
+/splunk/*/db/
+*.rawdata
+*.tsidx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+/data/
+/exports/
+/screenshots/
+*.pcap
+*.pcapng
+
+# Sensitive files
+*_SENSITIVE*
+*_PRIVATE*
+*.pem
+*.key
+*.crt
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# NetFlow raw data
+*.nfcapd
+/var/cache/nfdump/

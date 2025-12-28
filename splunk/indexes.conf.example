@@ -1,0 +1,22 @@
+# indexes.conf.example
+# Copy to $SPLUNK_HOME/etc/system/local/indexes.conf
+# Adjust paths and sizes for your environment
+
+[syslog]
+homePath = $SPLUNK_DB/syslog/db
+coldPath = $SPLUNK_DB/syslog/colddb
+thawedPath = $SPLUNK_DB/syslog/thaweddb
+maxTotalDataSizeMB = 1000
+frozenTimePeriodInSecs = 604800
+# 7 days retention
+
+[netflow]
+homePath = $SPLUNK_DB/netflow/db
+coldPath = $SPLUNK_DB/netflow/colddb
+thawedPath = $SPLUNK_DB/netflow/thaweddb
+maxTotalDataSizeMB = 5000
+frozenTimePeriodInSecs = 604800
+# 7 days retention
+# Note: NetFlow can be high volume. Adjust maxTotalDataSizeMB 
+# based on your license and storage capacity.
+# Consider sampling (see scripts/process_flows.sh) if volume exceeds license.

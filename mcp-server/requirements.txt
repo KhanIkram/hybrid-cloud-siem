@@ -1,0 +1,17 @@
+# MCP Server for Threat Hunting
+# Install with: pip install -r requirements.txt
+
+# MCP SDK for Claude integration
+mcp>=1.0.0
+
+# Async HTTP client for API calls
+httpx>=0.25.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Async support
+anyio>=4.0.0
+
+# Type hints (Python 3.10+ has built-in, but good for compatibility)
+typing-extensions>=4.0.0
